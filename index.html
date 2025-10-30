@@ -3,54 +3,39 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>加入我的 Telegram 频道</title>
+<title>动图跳 Telegram</title>
 
 <!-- 社交媒体 Meta Tags -->
-<meta name="description" content="点击动图即可访问 Telegram 群，立即加入！">
-
-<!-- Open Graph -->
-<meta property="og:title" content="加入我的 Telegram 频道" />
-<meta property="og:description" content="点击动图即可访问 Telegram 群，立即加入！" />
+<meta name="description" content="点击动图加入 Telegram">
+<meta property="og:title" content="点击动图加入 Telegram" />
+<meta property="og:description" content="点击动图加入 Telegram" />
 <meta property="og:image" content="9月26日.gif" />
 <meta property="og:url" content="index.html" />
 <meta property="og:type" content="website" />
-
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@你的X账号" />
-<meta name="twitter:title" content="加入我的 Telegram 频道" />
-<meta name="twitter:description" content="点击动图即可访问 Telegram 群，立即加入！" />
+<meta name="twitter:title" content="点击动图加入 Telegram" />
+<meta name="twitter:description" content="点击动图加入 Telegram" />
 <meta name="twitter:image" content="9月26日.gif" />
 
 <style>
-  body { text-align:center; font-family:sans-serif; padding:20px; background:#111; color:white; }
-  .video-wrapper { position: relative; display:inline-block; cursor:pointer; max-width:100%; }
-  .video-wrapper img { width:100%; height:auto; display:block; border-radius:10px; }
-  .video-wrapper .play-btn {
-    position: absolute; top:50%; left:50%;
-    transform: translate(-50%, -50%);
-    font-size:60px; color:white; text-shadow: 0 0 15px black;
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
   }
-  a.button {
-    display:inline-block; margin-top:20px; padding:12px 25px;
-    font-size:22px; background-color:#ff3366; color:white; border-radius:12px;
-    text-decoration:none; font-weight:bold;
+  img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
   }
 </style>
-
 </head>
 <body>
 
-<h2>🎬 点击动图观看并加入 Telegram</h2>
-
-<div class="video-wrapper" onclick="window.open('https://t.me/+UESd7ki6rl84NWFh', '_blank')">
-  <img src="9月26日.gif" alt="动图预览" loading="lazy">
-  <div class="play-btn">▶️</div>
-</div>
-
-<br>
-
-<a class="button" href="https://t.me/+UESd7ki6rl84NWFh" target="_blank">加入 Telegram</a>
+<img src="9月26日.gif" alt="动图预览" onclick="window.open('https://t.me/+UESd7ki6rl84NWFh', '_blank')">
 
 </body>
 </html>
